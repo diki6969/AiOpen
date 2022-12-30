@@ -2,7 +2,7 @@ require("http").createServer((_, res) => res.end("Berjalan coy")).listen(8080)
 
 const sessionName = 'yusril'
 const donet = 'https://saweria.co/sansekai'
-const owner = ['6282281657946']
+const owner = ['6285609188523']
 const { default: sansekaiConnect, useSingleFileAuthState, DisconnectReason, fetchLatestBaileysVersion, generateForwardMessageContent, prepareWAMessageMedia, generateWAMessageFromContent, generateMessageID, downloadContentFromMessage, makeInMemoryStore, jidDecode, proto, getContentType } = require("@adiwajshing/baileys")
 const { state, saveState } = useSingleFileAuthState(`./${sessionName}.json`)
 const pino = require('pino')
